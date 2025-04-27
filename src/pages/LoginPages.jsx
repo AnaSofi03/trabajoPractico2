@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../style/LoginPages.css"; 
+
 
 function LoginPages() {
   const [usuario, setUsuario] = useState({ username: "", password: "" });
@@ -10,7 +10,7 @@ function LoginPages() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(Bienvenido, ${usuario.username});
+    alert(`Bienvenido, ${usuario.username}`);
   };
 
   return (

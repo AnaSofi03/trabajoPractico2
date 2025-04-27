@@ -1,6 +1,6 @@
 import React from "react";
 import Main from "../componentes/Main";
-import "../style/NosotrosPages.css";  
+
 
 function NosotrosPages({ integrantes, setIntegrantes, setIntegranteSeleccionado, setPagina }) {
   return (
